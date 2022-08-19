@@ -1,9 +1,11 @@
 body{
 	background: #fff;
+	/* background: black; */
 }
 .cart{
 	margin: 100px 0;
-	background-color: #F6F5FA;;
+	background-color: #F6F5FA;
+	/* background: black; */
 	padding: 60px 0;
 }
 .total-price{
@@ -11,6 +13,7 @@ body{
 }
 .cart-item{
 	background-color: #fff;
+	/* background: black; */
 	border-radius: 10px;
 	padding: 15px 20px;
 	margin-bottom: 20px;
@@ -31,9 +34,11 @@ body{
 }
 .btn-default{
 	background-color: #fff;
+	/* background: black; */
 }
 .cart-item .form-control{
 	background-color: #F6F5FA;
+	/* background: black; */
 	border: none;
     width: 65px;
     border-radius: 10px!important;
