@@ -34,7 +34,7 @@ document
   .getElementById("btn-case-minus")
   .addEventListener("click", function () {
     // updateCaseNumber("case-number-field", "-");
-    updateCaseNumber(false);
+    const newCaseNumber = updateCaseNumber(false);
     const caseTotalElement = document.getElementById("case-total");
     const caseTotalElementString = caseTotalElement.innerText;
     const caseTotalPrice = parseInt(caseTotalElementString);
