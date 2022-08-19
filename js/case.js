@@ -32,6 +32,8 @@ document.getElementById("btn-case-plus").addEventListener("click", function () {
   //   updateCaseNumber("case-number-field", "+");
   const newCaseNumber = updateCaseNumber(true);
   updateCaseTotalPrice(newCaseNumber);
+  // calculate total
+  calculateSubTotal();
 });
 
 document
@@ -41,4 +43,6 @@ document
     const newCaseNumber = updateCaseNumber(false);
     // updateCaseTotalPrice(); // NaN
     updateCaseTotalPrice(newCaseNumber);
+    // calculate total
+    calculateSubTotal();
   });

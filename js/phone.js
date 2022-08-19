@@ -25,6 +25,8 @@ document
   .addEventListener("click", function () {
     const newPhoneNumber = updatePhoneNumber(true);
     updatePhoneTotalPrice(newPhoneNumber);
+    // calculate total
+    calculateSubTotal();
   });
 
 document
@@ -32,4 +34,6 @@ document
   .addEventListener("click", function () {
     const newPhoneNumber = updatePhoneNumber(false);
     updatePhoneTotalPrice(newPhoneNumber);
+    // calculate total
+    calculateSubTotal();
   });
